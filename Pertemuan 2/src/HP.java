@@ -1,6 +1,7 @@
 public class HP {
 
-    String merek, tipe;
+    String merek;
+    String tipe;
     float ukuranLayar;
     int harga;
 
