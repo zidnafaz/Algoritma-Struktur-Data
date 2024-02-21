@@ -5,6 +5,10 @@ public class HP {
     float ukuranLayar;
     int harga;
 
+    public HP() {
+
+    }
+
     public HP(String mr, String tp, float ukuran) {
         merek = mr;
         tipe = tp;
@@ -41,6 +45,8 @@ public class HP {
             phone1.tampilkanInformasi();
             phone1.cekKondisi(false);
             HP phone2 = new HP("Xiaomi", "12T", 6.67f);
+            phone2.tampilkanInformasi();
+            phone2.cekKondisi(true);
         }
         
     }
