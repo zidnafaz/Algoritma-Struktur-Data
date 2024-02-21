@@ -31,7 +31,7 @@ public class HP {
         }
     }
 
-    public class HPMain {
+    class HPMain {
     
         public static void main(String[] args) {
             HP phone1 = new HP();
