@@ -37,7 +37,7 @@ public class HP {
 
     class HPMain {
     
-        public static void main(String[] args) {
+        public void main(String[] args) {
             HP phone1 = new HP();
             phone1.merek = "Samsung";
             phone1.tipe = "Z Flip 4";
